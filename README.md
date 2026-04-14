@@ -44,3 +44,11 @@ Example: "I want to eat pizza" -> "I want to eat pizza 🍕"
 ## License
 
 This project is intended for personal and educational use. Feel free to modify and build upon it!
+
+## 👨‍💻 Author
+
+**Harsh Kumar**
+ | Student
+ << Working on Frontend Designing
+ << working on web developer
+
