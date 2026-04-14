@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Translator ✨</title>
+    <meta name="description" content="Translate your text into emojis instantly. A premium, seamless experience.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-mesh">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="container">
+        <header class="app-header">
+            <div class="title-wrapper">
+                <i class="fa-solid fa-wand-magic-sparkles magic-icon"></i>
+                <h1 class="app-title">Emoji Translator</h1>
+            </div>
+            <p class="subtitle">Transform your words into expressive emojis.</p>
+        </header>
+
+        <section class="translator-panel">
+            <div class="controls-top">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="translation-toggle" checked>
+                    <span class="slider round"></span>
+                </label>
+                <span class="toggle-label" id="toggle-status-text">Active</span>
+            </div>
+
+            <div class="input-section">
+                <label for="text-input" class="visually-hidden">Enter text here</label>
+                <textarea id="text-input" placeholder="Type a sentence here... Try words like happy, sad, love, pizza, dog, cat!" autofocus spellcheck="false"></textarea>
+                <div class="action-footer">
+                    <button id="translate-btn" class="primary-btn">
+                        <i class="fa-solid fa-language"></i> Translate
+                    </button>
+                    <span class="realtime-badge"><i class="fa-solid fa-bolt"></i> Real-time</span>
+                </div>
+            </div>
+
+            <div class="output-section">
+                <h2 class="section-heading">Result</h2>
+                <div id="output-box" class="output-box">
+                    <span class="placeholder-text">Translation will appear here...</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
