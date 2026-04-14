@@ -48,7 +48,7 @@ This project is intended for personal and educational use. Feel free to modify a
 ## 👨‍💻 Author
 
 **Harsh Kumar**
- | Student \n
+ | Student 
  << Working on Frontend Designing
  << working on web developer
 
